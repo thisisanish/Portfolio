@@ -6,7 +6,7 @@ import CertificationCard from '../components/CertificationCard'
 const Certifications = () => {
     const certificationData = [
         {
-            title: "Projeoject Moject Mct Management",
+            title: "Project Management",
             brandName: "Board Infinity",
             brand: "url",
             credLink:"jcnj"
