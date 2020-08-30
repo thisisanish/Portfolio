@@ -28,9 +28,8 @@ const Projects = () => {
     },[setProjData])
 ;
     const DisplayProject  = projData.map(element=>{
-        console.log(element);
         let {projTitle, projImage, projBody, gitLink, hostLink} = element
-        return <ProjectCard  projTitle={projTitle} projBody={projBody} projImage={projImage} gitLink={gitLink} hostLink={hostLink} />
+        return <ProjectCard  key={projTitle } projTitle={projTitle} projBody={projBody} projImage={projImage} gitLink={gitLink} hostLink={hostLink} />
     })
     
     return(
