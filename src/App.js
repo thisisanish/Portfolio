@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState, useEffect} from 'react'
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
 
 import './App.css'
@@ -12,6 +12,8 @@ import Resume from './pages/Resume'
 
 
 const App = ()=>{
+  
+
   return(
 
     <BrowserRouter>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 
 
 import ProjectCard from '../components/ProjectCard'
@@ -6,36 +6,38 @@ import ProjectCard from '../components/ProjectCard'
 import Base from '../Base'
 
 const Projects = () => {
+    const [projData, setProjData] = useState([])
+        
+    const   getData = () =>{
+        fetch("https://raw.githubusercontent.com/thisisanish/test/master/project.json")
+        .then(res=>res.json()
+            .then(data=>setProjData(data))
+            
+        )
+        
 
-    const progData = 
-        [
-        {
-            projTitle: "YelpCamp",
-            projImage: "Avatar.png",
-            projBody: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, magnam repellat autem consequatur dolores veniam sint perferendis. Dignissimos enim debitis ullam deleniti maiores id. Commodi consequuntur nihil reiciendis accusamus modi.",
- 
-        },
-        {
-            projTitle: "BlogApp",
-            projImage: "Avatar.png",
-            projBody: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, magnam repellat autem consequatur dolores veniam sint perferendis. Dignissimos enim debitis ullam deleniti maiores id. Commodi consequuntur nihil reiciendis accusamus modi.",
-            gitLink: "vdvs",
-            hostLink:""
-        }
-
-    ]
+        .catch(err=>console.log(err))
+    }
     
-    const DisplayProject = progData.map(element=>{
+    useEffect(() => {
+        console.log("r");
+        getData()
+        
+
+
+    },[setProjData])
+;
+    const DisplayProject  = projData.map(element=>{
+        console.log(element);
         let {projTitle, projImage, projBody, gitLink, hostLink} = element
-        return <ProjectCard key={projTitle} projTitle={projTitle} projBody={projBody} projImage={projImage} gitLink={gitLink} hostLink={hostLink} />
+        return <ProjectCard  projTitle={projTitle} projBody={projBody} projImage={projImage} gitLink={gitLink} hostLink={hostLink} />
     })
     
     return(
-        <Base title="Projects">
-           
+        
+        <Base title="Projects">     
                 <div className="row" style={{display:"flex", justifyContent:"center"}}>
                     {DisplayProject}
-    
             </div>
             
         </Base>

@@ -21,7 +21,7 @@ const Introduction = () => {
                             <div className="row">
                             <a target="_blank" style={{color:"white"}} rel="noopener noreferrer" href="https://www.linkedin.com/in/thisisanish/" title="linkedIn" className="btn btn-warning m-1 m-1 mx-3"><i className="fa fa-linkedin fa-2x" aria-hidden="true"></i> </a>
                             <a target="_blank" style={{color:"white"}} rel="noopener noreferrer" href="https://github.com/thisisanish/" title="Github" className="btn btn-warning m-1 mx-3"><i className="fa fa-github fa-2x" aria-hidden="true"></i> </a>
-                            <a target="_blank" style={{color:"white"}} rel="noopener noreferrer" href = "mailto: email.anishagarwal@gmail.com"  title="email.anishagarwal@gmail.com" className="btn btn-warning m-1 mx-3"><i className="fa fa-lg fa-envelope "></i> </a>
+                            <a target="_blank" style={{color:"white"}} rel="noopener noreferrer" href = "mailto: email.anishagarwal@gmail.com"  title="email.anishagarwal@gmail.com" className="btn btn-warning m-1 mx-3"><i className="fa fa-2x fa-envelope "></i> </a>
                             <a target="_blank" style={{color:"white"}} rel="noopener noreferrer" href="https://www.instagram.com/anish__agarwal/" title="Instagram" className="btn btn-warning m-1 mx-3"><i className="fa fa-instagram fa-2x" aria-hidden="true"></i> </a>
                             </div>
                             

@@ -1,6 +1,7 @@
 import React from 'react'
 
 const ProjectCard = ({projTitle, projImage, projBody, gitLink, hostLink}) => {
+    console.log(hostLink);
     return (
          
             <div className="col" style={{ marginBottom:"1rem"}}>
