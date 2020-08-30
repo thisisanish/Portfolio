@@ -18,16 +18,23 @@ const Introduction = () => {
                         {/* <h4>I do fiddle around with Python and Research</h4> */}
                         <br/>
                         <div className="row justify-align-content-stretch px-3" style={{justifyContent:"stretch"}}>
-                            <Link to="#" title="Linkedin" className="btn btn-warning mx-3"><i className="fa fa-linkedin fa-2x" aria-hidden="true"></i></Link>
-                            <Link to="#" title="Instagram" className="btn btn-warning mx-3"><i className="fa fa-instagram fa-2x" aria-hidden="true"></i></Link>
-                            <Link to="#" title="Github" className="btn btn-warning mx-3"><i className="fa fa-github fa-2x" aria-hidden="true"></i></Link>
-                            <Link to="#" title="Facebook" className="btn btn-warning mx-3 "><i className="fa fa-facebook-official fa-2x" aria-hidden="true"></i></Link>
+                            <div className="row">
+                            <a target="_blank" style={{color:"white"}} rel="noopener noreferrer" href="https://www.linkedin.com/in/thisisanish/" title="linkedIn" className="btn btn-warning m-1 m-1 mx-3"><i className="fa fa-linkedin fa-2x" aria-hidden="true"></i> </a>
+                            <a target="_blank" style={{color:"white"}} rel="noopener noreferrer" href="https://github.com/thisisanish/" title="Github" className="btn btn-warning m-1 mx-3"><i className="fa fa-github fa-2x" aria-hidden="true"></i> </a>
+                            <a target="_blank" style={{color:"white"}} rel="noopener noreferrer" href = "mailto: email.anishagarwal@gmail.com"  title="email.anishagarwal@gmail.com" className="btn btn-warning m-1 mx-3"><i className="fa fa-lg fa-envelope "></i> </a>
+                            <a target="_blank" style={{color:"white"}} rel="noopener noreferrer" href="https://www.instagram.com/anish__agarwal/" title="Instagram" className="btn btn-warning m-1 mx-3"><i className="fa fa-instagram fa-2x" aria-hidden="true"></i> </a>
+                            </div>
+                            
+                            
                         </div>
                         <br/>
-                        <div className="col col-xs-12">
-                            <Link to="/projects" className="btn btn-primary mx-3"  ><i className="fa fa-rocket" aria-hidden="true"></i> &nbsp; Projects</Link>   
-                            <Link to="/"className="btn btn-success mx-3"><a target="_blank" style={{color:"white"}} rel="noopener noreferrer" href="https://docs.google.com/document/d/1A7oTBB_ZWBfWyrGQvpLCZE7d0vstS75hnrtvhgGZleg/export?format=pdf"><i className="fa fa-file" aria-hidden="true"></i> &nbsp;  View Resume</a></Link>
+                        <div className="row">
+                        
+                            <Link to="/projects" className="btn btn-primary m-1 mx-3"  ><i className="fa fa-rocket" aria-hidden="true"></i> &nbsp; Projects</Link>   
+                            <a className="btn btn-success m-1 mx-3" target="_blank" style={{color:"white"}} rel="noopener noreferrer" href="https://docs.google.com/document/d/1A7oTBB_ZWBfWyrGQvpLCZE7d0vstS75hnrtvhgGZleg/export?format=pdf"><i className="fa fa-file" aria-hidden="true"></i> &nbsp;  View Resume</a>
 
+                     
+                        
                         </div>
                         <div className="col col-xs-12 text-center ">
                         

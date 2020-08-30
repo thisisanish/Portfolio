@@ -13,7 +13,7 @@ import Resume from './pages/Resume'
 
 const App = ()=>{
   return(
-    <>
+
     <BrowserRouter>
     <Switch>
       <Route exact path="/" component={Introduction} />
@@ -23,7 +23,6 @@ const App = ()=>{
     </Switch>
     </BrowserRouter>
     
-    </>
   )
 }
 
