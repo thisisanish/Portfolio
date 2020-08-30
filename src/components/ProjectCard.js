@@ -5,8 +5,8 @@ const ProjectCard = ({projTitle, projImage = "https://image.shutterstock.com/ima
   
     return (
          
-            <div className="col" style={{ marginBottom:"1rem"}}>
-                    <div className="card shadow" style={{borderRadius:"10px", width:"18rem"}}>
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4" style={{ marginBottom:"1rem"}}>
+                    <div className="card shadow center ml-auto mr-auto" style={{borderRadius:"10px", width:"18rem"}}>
                         <img src={projImage} alt="" width="100%" height="auto" />
                         <div className="card-body">
                             <h3 className="card-title text-dark">
