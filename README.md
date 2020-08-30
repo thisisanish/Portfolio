@@ -1,3 +1,3 @@
 ## Anish Agarwal's Portfolio Website
 
-### [Deployed on Netlify.](https://thisisanish.netlify.com) :rocket:
+### [Deployed on Netlify :rocket:](https://thisisanish.netlify.com) 
