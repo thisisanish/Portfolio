@@ -12,7 +12,7 @@ console.log(brand);
                     <div className="col">
                         <h2>{title}</h2>
                         <h5>{brandName}</h5>
-                        <a className="btn btn-primary" href={credLink} style={{color:"white"}}> View Credentials &nbsp; <i className="fa fa-external-link"></i> </a>
+                        <a className="btn btn-primary" rel="noopener noreferrer" target="_blank" href={credLink} style={{color:"white"}}> View Credentials &nbsp; <i className="fa fa-external-link"></i> </a>
                     </div>
                 </div>
                 
