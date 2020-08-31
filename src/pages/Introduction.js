@@ -6,10 +6,10 @@ import Base from '../Base'
 const Introduction = () => {
     return (  
         <Base>
-            <div className="container" style={{marginTop:"7rem"}}>
-                <div className="row text-center center shadow rounded bg-transparent" >
-                    <div className="col col-md-6 col-xs-12 p2">
-                        <img src="Avatar.png" alt="" height="300rem"/>
+            <div className="container" style={{marginTop:"7rem",  marginBottom:"2rem"}}>
+                <div className="row text-center center shadow rounded"style={{backgroundColor:"rgba(255, 255, 255, 0.45)"}} >
+                    <div className="col col-md-6 col-xs-12 py-3">
+                        <img src="Avatar.png"  alt="" height="300rem"/>
                     </div>
                     <div className="col p-4 text-left">
                         <h3>Hola!</h3>
