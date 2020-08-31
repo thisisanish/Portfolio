@@ -12,7 +12,7 @@ const Navigation = () => {
                 <div className="collapse navbar-collapse"  id="main-nav">
 
                     <ul className="navbar-nav ml-auto">
-                    <li className="nav-item">
+                        <li className="nav-item">
                             <NavLink className="nav-link" exact to="/">Home</NavLink>
                         </li>
                         <li className="nav-item">

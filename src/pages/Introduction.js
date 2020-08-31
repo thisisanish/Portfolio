@@ -7,14 +7,14 @@ const Introduction = () => {
     return (  
         <Base>
             <div className="container" style={{marginTop:"7rem"}}>
-                <div className="row text-center center ">
+                <div className="row text-center center shadow rounded bg-transparent" >
                     <div className="col col-md-6 col-xs-12 p2">
                         <img src="Avatar.png" alt="" height="300rem"/>
                     </div>
                     <div className="col p-4 text-left">
                         <h3>Hola!</h3>
                         <h1 className="display-3">This is <strong><u className="text-uppercase">Anish</u></strong></h1>
-                        <h2>I am a MERN Stack Developer</h2>
+                        <h2>A<strong> MERN Stack </strong>  Developer</h2>
                         {/* <h4>I do fiddle around with Python and Research</h4> */}
                         <br/>
                         <div className="row justify-align-content-stretch px-3" style={{justifyContent:"stretch"}}>
