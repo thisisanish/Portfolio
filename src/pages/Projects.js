@@ -9,7 +9,7 @@ const Projects = () => {
     const [projData, setProjData] = useState([])
         
     const   getData = () =>{
-        fetch("https://raw.githubusercontent.com/thisisanish/test/master/project.json")
+        fetch("https://raw.githubusercontent.com/thisisanish/Datastore-Json/master/project.json")
         .then(res=>res.json()
             .then(data=>setProjData(data))
             

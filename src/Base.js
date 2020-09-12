@@ -11,7 +11,7 @@ const Base = ({
         <div className="base">
             <Navigation/>
             <div className="container">
-            <h1 className="display-4  rounded" style={{marginTop:"5rem", marginBottom:"1rem",fontWeight:"bolder" }}><u>{title}</u></h1> 
+            <h1 className="display-4  rounded" style={{marginTop:"5rem", marginBottom:"1rem",fontWeight:"bolder",display:title?"block":"none" }}><u>{title}</u></h1> 
             <hr style={{marginBottom:"3rem", color:"black" ,display:title?"block":"none"}}/>
             {children}
             </div>

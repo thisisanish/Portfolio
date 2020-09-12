@@ -8,7 +8,7 @@ const Certifications = () => {
     const [certificationData, setCertificationData] = useState([])
     
     const   getData = () =>{
-        fetch("https://raw.githubusercontent.com/thisisanish/test/master/certification.json")
+        fetch("https://raw.githubusercontent.com/thisisanish/Datastore-Json/master/certification.json")
         .then(res=>res.json()
             .then(d=>{
                 console.log(d);
@@ -30,27 +30,6 @@ const Certifications = () => {
 
     },[setCertificationData])
 
-
-    // const certificationData = [
-    //     {
-    //         title: "Project Management",
-    //         brandName: "Board Infinity",
-    //         brand: "url",
-    //         credLink:"jcnj"
-    //     },
-    //     {
-    //         title: "Project Management",
-    //         brandName: "Board Infinity",
-    //         brand: "google.com",
-    //         credLink:"jcnj"
-    //     },
-    //     {
-    //         title: "Project Management",
-    //         brandName: "Board Infinity",
-    //         brand: "url",
-    //         credLink:"jcnj"
-    //     }
-    // ]
 
     let displayCertificates = certificationData.map(element=>{
         let {title, credLink, brandName, brand} = element
