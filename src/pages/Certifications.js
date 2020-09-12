@@ -11,7 +11,7 @@ const Certifications = () => {
         fetch("https://raw.githubusercontent.com/thisisanish/Datastore-Json/master/certification.json")
         .then(res=>res.json()
             .then(d=>{
-                console.log(d);
+
                 return d
             })
             .then(data=>setCertificationData(data))
@@ -23,7 +23,7 @@ const Certifications = () => {
     }
     
     useEffect(() => {
-        console.log("r");
+     
         getData()
         
 

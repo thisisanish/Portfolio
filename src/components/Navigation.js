@@ -7,7 +7,7 @@ const Navigation = () => {
 
                 <Link className="navbar-brand md0 h1  text-bold" to='/' style={{fontSize:"2rem"}}>Anish Agarwal</Link>
                 <button className="navbar-toggler" data-toggle="collapse" data-target="#main-nav">
-                    <span className="navbar-toggler-icon"></span>
+                    <span className="text-black navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse"  id="main-nav">
 

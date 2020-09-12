@@ -20,7 +20,7 @@ const Projects = () => {
     }
     
     useEffect(() => {
-        console.log("r");
+  
         getData()
         
 

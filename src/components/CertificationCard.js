@@ -1,7 +1,7 @@
 import React from 'react'
 
 const CertificationCard = ({brand, brandName, title, credLink}) => {
-console.log(brand);
+
     return (
         <div className=" col-md-12 col-lg-6 col-sm-12 col-xs-12" style={{marginBottom:"1rem"}}>
             <div className="card shadow" style={{padding:"5%", borderRadius:"10px"}}>
