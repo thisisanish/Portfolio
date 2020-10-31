@@ -26,8 +26,8 @@ const Introduction = () => {
                         <br/>
                         <br/>
                         <Link to="/projects" value="" className="btn btn-primary m-1  mx-3"  ><i className="fa fa-rocket" aria-hidden="true"></i> &nbsp; Projects</Link>   
-                        <a className="btn btn-success m-1 mx-3" target="_blank" style={{color:"white"}} rel="noopener noreferrer" href="https://docs.google.com/document/d/1A7oTBB_ZWBfWyrGQvpLCZE7d0vstS75hnrtvhgGZleg/export?format=pdf"><i className="fa fa-file" aria-hidden="true"></i> &nbsp;  View Resume</a>
-                 
+                        {/* <a className="btn btn-success m-1 mx-3" target="_blank" style={{color:"white"}} rel="noopener noreferrer" href="https://docs.google.com/document/d/1A7oTBB_ZWBfWyrGQvpLCZE7d0vstS75hnrtvhgGZleg/export?format=pdf"><i className="fa fa-file" aria-hidden="true"></i> &nbsp;  View Resume</a> */}
+                        <Link to="/resume" value="" className="btn btn-primary m-1  mx-3"  ><i className="fa fa-file" aria-hidden="true"></i> &nbsp; Resume</Link>
                         <div className="row  px-3" style={{justifyContent:"stretch"}}>
                             <div className="row">
                             
